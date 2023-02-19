@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input::-webkit-input-placeholder{
+  color: grey !important;
+}
+.ant-input {
+  box-shadow: none !important;
+  padding: 0 !important
+}
+.ant-select-selector {
+  background-color: #312f3a !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: white !important;
+}
+.ant-select-selection-placeholder {
+  color: grey !important;
+
+}
+.ant-select-arrow-loading {
+  color: #6c41eb !important;
+}
+.ant-select-dropdown.custom-dropdown {
+  background: #121212 !important;
+  border: 1px solid #323232 !important;
+}
+.ant-select-dropdown {
+  background: #121212 !important;
+  border: 1px solid #323232 !important;
+}
+.ant-select-item-option-content {
+  color: white !important;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  cursor: pointer !important;
+}
+.ant-select-item-option-active {
+  color: #6c41eb !important;
+}
+.ant-select-item-option-selected {
+  background: #161616 !important;
+  color: #6c41eb !important;
+}
+.ant-select-item-option-content {
+  color: #a6a6ab !important;
+  font-weight: 600;
+}
+.ant-select-item-option-content:hover {
+  color: #6c41eb !important;
+  font-weight: 600;
+}
+.ant-select-item-option-selected > .ant-select-item-option-content {
+  color: #6c41eb !important;
+  font-weight: 600;
+}
+.ant-select-selection-item {
+  color: white !important;
+  font-weight: 600;
+}
+.ant-select-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.ant-radio-button {
+  background: ;
+
+}
+.ant-select-selection-item>div {
+  color: grey
+}
+.rowBackgroundColor {
+  background-color: #161616;
+}
+.ant-table-thead > tr > th {
+  /* font-size: 10px; */
+  font-weight: 1000 !important;
+  background-color: #161616 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.ant-table-thead > tr > th:hover {
+  /* font-size: 10px; */
+  font-weight: 1000 !important;
+  color: #6c41eb !important;
+}
+tr:hover:not(.ant-table-expanded-row) > td {
+  background: #0c0c0c !important;
+}
+.ant-table-content {
+  border-radius: 0px !important;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #323232 !important
+}
+
+.ant-pagination-item-link {
+  background-color: #2C2F48 !important;
+}
+
+.ant-pagination-item {
+  background-color: #161616;
+  border: 1px solid white !important;
+  border-radius: 5px !important;
+  margin: 0 2px !important;
+}
+.ant-pagination-item:hover > a {
+  color: #fff !important;
+}
+
+.ant-pagination-item > a {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.ant-pagination-item-link svg {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ant-pagination-item-active {
+  color: #6c41eb !important;
+  background-color: #161616 !important;
+  border: 1px solid #6c41eb !important;
+  border-radius: 5px !important;
+}
+.ant-pagination-item-active > a {
+  color: #6c41eb !important
+}
